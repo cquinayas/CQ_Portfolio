@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/cq.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="60x60"
+      href="assets/icons/cq2.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>César Quinayás | Data Scientist</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>César Quinayás</h1>
+      <ul class="navigation">
+        <li><a href="#Education" class="nav-link">Education</a></li>
+        <li><a href="#Technical skills" class="nav-link">Technical skills</a></li>
+        <!--li><a href="#Certification" class="nav-link">Certification</a></li>-->
+        <li><a href="#Projects" class="nav-link">Projects</a></li>
+        <li><a href="#Certifications" class="nav-link">Certifications</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/Cesar.png"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">César Augusto Quinayás Burgos</h2>
+        <p class="bio-text">
+          Data Scientist | Data Engineer | Data Analytics | Machine Learning Enginner | PhD Electronic Sciences
+        </p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="Education" id="Education">
+      <h2>Education</h2>
+      <div class="Education-container">
+        <div class="Education-container-formation" >
+          <img
+              src="assets/images/Henry.png"
+              alt=""
+              loading="lazy"
+              class="Education-image"
+            />
+          <p>
+            Data Science, Bootcamp Data Science, Octubre 2022- March 2023 
+          </p>
+        </div> 
+
+        <div class="Education-container-formation" >
+          <img
+              src="assets/images/unicauca.jpg"
+              alt=""
+              loading="lazy"
+              class="Education-image"
+            />
+          <p>
+            PhD Electronic Sciences, University of Cauca, January 2011- September 2015 
+          </p>
+        </div> 
+
+        <div class="Education-container-formation" >
+          <img
+              src="assets/images/unicauca.jpg"
+              alt=""
+              loading="lazy"
+              class="Education-image"
+            />
+          <p>
+            Magister in Automation, University of Cauca, August 2008 - October 2010  
+          </p>
+        </div> 
+
+        <div class="Education-container-formation" >
+          <img
+              src="assets/images/unicauca.jpg"
+              alt=""
+              loading="lazy"
+              class="Education-image"
+            />
+          <p>
+            Physical Engineer, University of Cauca, January 2000 - June 2005  
+          </p>
+        </div> 
+      </div>
+      
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="Technical skills">
+      <h2 class="skill-header">Technical skills</h2>
+      <div  class="skill-container">
+        <ul>
+          <li>Programming: Python, SQL, Django, Javascript, Flask, Streamlit</li>
+          <li>Machine Learning: Sckit-Learn, Keras, Numpy, Pandas </li>
+          <li>Big Data: Hadoop, Hive, Spark, Kafka, Airflow   </li>
+          <li>Data Visualization: Power Bi </li>
+          <li>Agile Methodologies: Scrum </li>
+          <li>Cloud computing: GCP    </li>
+  
+        </ul>
+      </div>
+      
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/Python.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/hadoop.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/Scikit_learn.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/flask.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/mysql.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+          src="assets/icons/icons8-javascript.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- Certification section --> 
+   
+    
+    <!-- Projects section -->
+    <section class="projects" id="Projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/ARQUITECTURA.png"
+            alt="PCA"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Analysis of Google reviews of the US accommodation sector</h3>
+          <p class="project-details">
+            Incremental loading in cloud storage of millions of data in jason format, workflow orchestrated with airflow to perform the ETL and creation of a data warehouse in Bigquery, dashboard in Power Bi, recommendation model and analysis of sentiments diployed in Streamlit
+          </p>
+          <a href="https://cquinayas-deploy-proyecto-final-henry-pca-5temea.streamlit.app/" target="_blank" class="project-link">Check it Out</a>
+          <div>
+            <a href="https://github.com/HenryGrupo07/TrabajoGrupal" target="_blank" class="project-link">GitHub Repository</a>
+          </div>
+          
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/proyecto1.png"
+            alt="API_FLASK_MYSQL_HEROKU"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">API_FLASK_MYSQL_HEROKU</h3>
+          <p class="project-details">
+            Data engineer project to create an API using Flask, a Mysql database and put into production in the Heroku cloud
+          </p>
+          <a href="https://api-flask.herokuapp.com/" target="_blank" class="project-link">Check it Out</a>
+          <div>
+            <a href="https://github.com/cquinayas/API_FLASK_MYSQL_HEROKU" target="_blank" class="project-link">GitHub Repository</a>
+          </div>
+          
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/modelos.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Machine Learning Project</h3>
+          <p class="project-details">
+            Classification model with supervised learning that allows to classify the price of properties for sale
+          </p>
+          <a href="https://github.com/cquinayas/Proyecto-ML-Henry" target="_blank" class="project-link">GitHub Repository</a>
+        </div>
+        
+      </div>
+
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/proyecto3.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Data Analytics Project</h3>
+          <p class="project-details">
+            Dashboard in Streamlit that allows you to analyze the level of sales according to price, language, level and rating on the Coursera, EDX and Udemy platforms
+          </p>
+          <a href="https://cquinayas-proyecto-data-analytics-henry-app-r5hfvx.streamlit.app/" target="_blank" class="project-link">Check it Out</a>
+          <div>
+            <a href="https://github.com/cquinayas/Proyecto-Data-Analytics-Henry" target="_blank" class="project-link">GitHub Repository</a>
+          </div>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/crop_recommendation.png"
+            alt="Crop prediction"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Crop prediction model</h3>
+          <p class="project-details">
+            An SVM model is trained and put into production using Flask and Herokue Cloud. The SVM model will allow recommending a type of crop depending on soil and environmental characteristics
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <div>
+            <a href="https://github.com/cquinayas/Crop_Flask_Heroku" target="_blank" class="project-link">GitHub Repository</a>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section>
+
+    <!-- Certification section -->
+    <section class="certification" id="Certifications">
+      <h2>Certifications</h2>
+      <div class="certification-container">
+        <h3>Platzi</h3>
+        <ul>
+          <li>Curso básico de Python</li>
+          <li>Curso profesional de Python</li>
+          <li>Manipulación y transformación de datos con Pandas y Numpy</li>
+          <li>Visualización de datos con Matplotlib y Seaborn</li>
+          <li>Matemáticas para Data Science: Estadística Descriptiva</li>
+          <li>Estadística inferencial para Data Science e IA</li>
+          <li>Matemáticas para Data Science:Probabilidad</li>
+          <li>Curso profesional de SCRUM</li>
+          <li>Curso Definitivo de Html y CSS</li>
+          <li>Curso práctico de Html y CSS</li>
+          <li>Curso básico de Javascript</li>
+        </ul>
+        <h3>Udemy</h3>
+        <ul>
+          <li>Curso completo de Machine Learning; Data Science en Python</li>
+        </ul>
+        <div class="certification-drive">
+          <a href="https://drive.google.com/drive/folders/1XrNLWiWAZWq92GFu_dQ4Eir7or-kcrr0?usp=sharing" target="_blank" class="project-link">Certifications in Google Drive</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      
+      <a href="https://www.instagram.com/cesar_quinayas/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/cesar-augusto-quinayas-burgos-544084243/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/cquinayas?tab=repositories" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">Portfolio &copy; cquinayas@gmail.com</p>
+      <p class="copy">
+        Built with &#x2661; by César Quinayás
+      
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
